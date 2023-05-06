@@ -33,7 +33,7 @@ function renderLicenseSection(license) {
   if (license !== 'None') {
     licenseSection = `
 ## License
-  ${renderLicenseLink(license)}
+  This application is covered by the ${renderLicenseLink(license)}
     `
   } 
   return licenseSection
@@ -44,10 +44,37 @@ function generateMarkdown(data) {
   return ` 
 # ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+
 ## Description
   ${data.description}
 
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+  ${data.installation}
+
+## Usage
+  ${data.usage}  
+  
 ${renderLicenseSection(data.license)}
+
+## Contributing
+  ${data.credits}
+
+## Tests
+  ${data.tests}
+
+## Questions
+  Find me on Github: [${data.username}](https://github.com/${data.username})\n 
+  Please email with any questions about this project: ${data.email} 
 `;
 }
 
