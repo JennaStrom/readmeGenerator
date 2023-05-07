@@ -5,6 +5,12 @@
 
 ## Description
   This is a node.js application that takes in user input to populate a readme.md file for a repository.
+  
+  [Click Here](https://drive.google.com/file/d/1QbwFhJuYaOVIg_2xzXVfUpO-3u5PmvzL/view?usp=sharing) to see a video walkthrough of this application.
+  
+  Here is a screenshot of the application in use: 
+  <img width="1162" alt="Screenshot 2023-05-07 at 2 24 47 PM" src="https://user-images.githubusercontent.com/123525191/236698512-3b7a6329-234c-4138-903c-ea152dc5c61d.png">
+
 
 ## Table of Contents
 - [Description](#description)
@@ -30,7 +36,7 @@
   [Xander Rapstine](http://github.com/xandromus) created the starter code for this project.
 
 ## Tests
-  None.
+  No tests included.
 
 ## Questions
   Click this link to find me on Github: [JennaStrom](https://github.com/JennaStrom)
