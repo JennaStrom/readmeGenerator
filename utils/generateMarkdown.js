@@ -7,6 +7,10 @@ function renderLicenseBadge(license) {
       licenseBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
     } else if (license === 'Apache') {
       licenseBadge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+    } else if (license === 'Mozilla') {
+      licenseBadge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+    } else if (license === 'Boost') {
+      licenseBadge = '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'
     }
   }
   return licenseBadge
@@ -20,8 +24,13 @@ function renderLicenseLink(license) {
     if (license === 'MIT') {
       licenseLink = '[The MIT License](https://opensource.org/license/mit/)'
     } else if (license === 'Apache') {
-      licenseLink = '[Apache 2.0 License}(https://opensource.org/license/apache-2-0/)'
+      licenseLink = '[Apache 2.0 License](https://opensource.org/license/apache-2-0/)'
+    } else if (license === 'Mozilla') {
+      licenseLink = '[Mozilla Public 2.0 License](https://opensource.org/license/mpl-2-0/)'
+    } else if (license === 'Boost') {
+      licenseLink = '[Boost Software License 1.0](https://opensource.org/license/bsl1-0-html/)'
     }
+    
   }
   return licenseLink
 }
@@ -73,7 +82,7 @@ ${renderLicenseSection(data.license)}
   ${data.tests}
 
 ## Questions
-  Find me on Github: [${data.username}](https://github.com/${data.username})\n 
+  Click this link to find me on Github: [${data.username}](https://github.com/${data.username})\n 
   Please email with any questions about this project: ${data.email} 
 `;
 }
