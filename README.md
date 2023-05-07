@@ -1,10 +1,10 @@
  
-# Readme
+# Readme Generator using Node.js
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description
-  stuff and things
+  This is a node.js application that takes in user input to populate a README.md file for a repository. 
 
 ## Table of Contents
 - [Description](#description)
@@ -16,23 +16,24 @@
 - [Questions](#questions)
 
 ## Installation
-  npm install
+  npm install 
+  npm install inquirer@8.2.4
 
 ## Usage
-  okay  
+  Run node index.js in the terminal at the root of your project and answer the questions.  
   
 
 ## License
-  This application is covered by the [The MIT License](https://opensource.org/license/mit/)
+  This application is covered by the [Mozilla Public 2.0 License](https://opensource.org/license/mpl-2-0/)
     
 
 ## Contributing
-  no
+  [Xander Rapstine](http://gihub.com/Xandromus) created the starter code for this project.
 
 ## Tests
-  none
+  No available tests.
 
 ## Questions
-  Find me on Github: [jennastrom](https://github.com/jennastrom)
+  Click this link to find me on Github: [JennaStrom](https://github.com/JennaStrom)
  
-  Please email with any questions about this project: jenna@jenna.com 
+  Please email with any questions about this project: Jenna@mail.com 
